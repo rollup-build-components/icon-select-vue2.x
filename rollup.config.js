@@ -4,11 +4,12 @@ const postcss = require('rollup-plugin-postcss')
 const babel = require('@rollup/plugin-babel')
 const alias = require('@rollup/plugin-alias')
 const vue = require('rollup-plugin-vue')
+const path = require('path')
 
 /**
  * Rollup Configuration
  */
-export default defineConfig([
+module.exports = defineConfig([
   {
     input: 'src/index.vue',
     output: [
@@ -29,7 +30,7 @@ export default defineConfig([
       alias({
         entries: [{
           find: '@',
-          replacement: new URL('./src', import.meta.url).pathname
+          replacement: path.resolve(__dirname, './src')
         }]
       }),
       vue(),
