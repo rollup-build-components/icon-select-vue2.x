@@ -18,5 +18,4 @@ yarn-error.log*
 
 # ingore
 /node_modules
-/dist
 
