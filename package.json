@@ -6,6 +6,19 @@
   "version": "1.0.0",
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "vue",
+    "rollup",
+    "component",
+    "rollup-vue"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "scripts": {
     "build": "shx rm -rf dist && rollup -c"
   },
