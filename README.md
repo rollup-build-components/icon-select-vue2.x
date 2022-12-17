@@ -1,6 +1,6 @@
 # 用 Rollup 打包 Vue2.x UI 组件
 > IconSelect 组件是基于 Vue2.x Ant-Design-Vue 的 Icon 和 Select 组件组合封装  
-> 仅作为 Rollup 打包 Vue2.x UI 组件的范例，后续不会维护，不建议在生产环境中使用
+> 作为 Rollup 打包 Vue2.x UI 组件的范例，后续仅维护 Rollup Build Configure，不建议在生产环境中使用
 
 
 <br/>
@@ -12,6 +12,7 @@
 1. Rollup 打包 Vue2.x 组件 所需依赖
 2. Rollup 打包 Vue2.x 组件 插件选项
 3. Rollup 打包 Script 脚本 运行配置
+4. 如何下载使用 IconSelect 组件?
 
 
 <br/>
@@ -147,6 +148,47 @@
   ```
 
 
+<br/>
+<br/>
+
+
+## 4. 如何下载使用 IconSelect 组件?
+
+  - 安装
+  ```shell
+
+    yarn add @rollup-build-components/vue-icon-select-2.x
+
+    pnpm add @rollup-build-components/vue-icon-select-2.x
+
+  ```
+
+  - 使用
+  ```html
+    <template>
+      <section class="section-container">
+        <icon-select v-model="value"/>
+      </section>
+    </template>
+  ```
+
+  ```javascript
+    import IconSelect from '@rollup-build-components/vue-icon-select-2.x'
+
+    export default {
+      name: 'Index',
+      components: {
+        IconSelect
+      },
+      data () {
+        return {
+          value: 'down'
+        }
+      }
+    }
+  ```
+
+  
 <br/>
 <br/>
 
