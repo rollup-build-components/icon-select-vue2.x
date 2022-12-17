@@ -60,7 +60,7 @@
     - 依赖:
       - `vue` version = ^2.7.14
       - `less` version = ^3.0.4
-      - `less-loader` version = ^5.0.0",
+      - `less-loader` version = ^5.0.0
       - `vue-template-compiler` version = ^2.7.14
 
 <br/>
