@@ -1,4 +1,7 @@
 # 用 Rollup 打包 Vue2.x UI 组件
+> IconSelect 组件是基于 Vue2.x Ant-Design-Vue 的 Icon 和 Select 组件组合封装  
+> 仅作为 Rollup 打包 Vue2.x UI 组件的范例，后续不会维护，不建议在生产环境中使用
+
 
 <br/>
 <br/>
