@@ -9,9 +9,9 @@
 
 ## Rollup 打包所涉及的处理
 
-1. Rollup 打包 Vue2.x 组件 所需依赖
-2. Rollup 打包 Vue2.x 组件 插件选项
-3. Rollup 打包 Script 脚本 运行配置
+1. Rollup 打包 Vue2.x 组件 - 所需依赖
+2. Rollup 打包 Vue2.x 组件 - 插件选项
+3. Rollup 打包 Vue2.x 组件 - 脚本配置
 4. 如何下载使用 IconSelect 组件?
 
 
@@ -19,7 +19,7 @@
 <br/>
 
 
-## 1. Rollup 打包 Vue2.x 所需依赖 (详见 [package.json](https://github.com/rollup-build-components/vue-icon-select-2.x/blob/main/package.json))
+## 1. Rollup 打包 Vue2.x 组件 - 所需依赖 (详见 [package.json](https://github.com/rollup-build-components/vue-icon-select-2.x/blob/main/package.json))
 
 - `@rollup/plugin-alias`
 
@@ -74,7 +74,7 @@
 <br/>
 
 
-## 2. Rollup 打包 Vue2.x 组件 插件选项
+## 2. Rollup 打包 Vue2.x 组件 - 插件选项
 
   ```javascript
 
@@ -137,7 +137,7 @@
 <br/>
 
 
-## 3. Rollup 打包 Script 脚本 运行配置
+## 3. Rollup 打包 Vue2.x 组件 - 脚本配置
 
   ```json
     {
