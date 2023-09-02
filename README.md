@@ -19,7 +19,7 @@
 <br/>
 
 
-## 1. Rollup 打包 Vue2.x 组件 - 所需依赖 (详见 [package.json](https://github.com/rollup-build-components/vue-icon-select-2.x/blob/main/package.json))
+## 1. Rollup 打包 Vue2.x 组件 - 所需依赖 (详见 [package.json](https://github.com/rollup-build-components/icon-select-vue2.x/blob/main/package.json))
 
 - `@rollup/plugin-alias`
 
@@ -157,9 +157,9 @@
   - 安装
   ```shell
 
-    yarn add @rollup-build-components/vue-icon-select-2.x
+    yarn add @rollup-build-components/icon-select-vue2.x
 
-    pnpm add @rollup-build-components/vue-icon-select-2.x
+    pnpm add @rollup-build-components/icon-select-vue2.x
 
   ```
 
@@ -173,7 +173,7 @@
   ```
 
   ```javascript
-    import IconSelect from '@rollup-build-components/vue-icon-select-2.x'
+    import IconSelect from '@rollup-build-components/icon-select-vue2.x'
 
     export default {
       name: 'Index',
